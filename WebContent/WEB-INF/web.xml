@@ -1,0 +1,29 @@
+<web-app>
+	
+    <servlet>
+	
+	<servlet-name>
+	 SaiGopal
+	</servlet-name>
+	
+	<servlet-class>
+	MyServlet5	<!--change the name of the java servlet file depending on the program ur going to execute.
+							ex: MyServlet1 , MyServlet2.java like that. -->
+	</servlet-class>
+		
+	</servlet>
+	
+	<servlet-mapping>
+	
+	<servlet-name>
+	SaiGopal
+	</servlet-name>
+	
+	<url-pattern>
+	/testURL
+	</url-pattern>
+	
+	</servlet-mapping>
+	
+
+</web-app>

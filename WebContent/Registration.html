@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My first Servlet & HTML page</title>
+</head>
+<body>
+	<form action="./testURL" method="post">
+		Name: <input type = "text" name = "Name"/><br>
+		Address: <input type = "text" name = "Address"/> <br>
+		Country : <input type = "text" name = "Country"/> <br>
+		<input type = "submit"/> 	<input type ="reset"/>
+		<!
+		-we are trying to create the submit button, this button is front end(the one which we can see directly).
+		-back end means the servlet programs are called back-end & the html pages will be called as front end.
+		-So, how can we access the html pages now. Do we need to configure something in the web.xml file to access the registration.html file
+		-Since, this is a static html page we dont have to give or change anything in the web.xml, web.xml is nothing but the deployment descriptor which will be providing the  information and the URL patterns about the servlets, it's not about the html pages.  
+		-Now, whatever data we are through the URL in the browser html page those object will be coming in the request object or response object? 
+		-whatever the data we are trying to ssend to the server that complete data will be coming to the server through request object. After that if we passing anything from the response, it will be displayed in the browser.
+		-The complete from data will be available for us in the request object.
+		-so, to get the data from the request object we need to use the getter methods in the java file.
+		>
+	</form>
+</body>
+</html>
